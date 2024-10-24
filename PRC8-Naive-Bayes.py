@@ -1,4 +1,5 @@
-# Importing the necessary libraries09
+# Naive Bayes
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -70,12 +71,19 @@ dump(classifier, 'naive_bayes_model.joblib')
 print("Model saved as 'naive_bayes_model.joblib'.")
 
 """
-It is a classification technique based on Bayes' Theorem with an independence assumption among predictors. In simple terms, a Naive Bayes classifier assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature.
+# Naive Bayes learning algorithm
 
-The Naïve Bayes classifier is a popular supervised machine learning algorithm used for classification tasks such as text classification. It belongs to the family of generative learning algorithms, which means that it models the distribution of inputs for a given class or category. This approach is based on the assumption that the features of the input data are conditionally independent given the class, allowing the algorithm to make predictions quickly and accurately.
+It is a classification technique based on Bayes' Theorem with an independence assumption among predictors.
+In simple terms, a Naive Bayes classifier assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature.
+The Naive Bayes classifier is a popular supervised machine learning algorithm used for classification tasks such as text classification. 
+It belongs to the family of generative learning algorithms, which means that it models the distribution of inputs for a given class or category.
+This approach is based on the assumption that the features of the input data are conditionally independent given the class, 
+allowing the algorithm to make predictions quickly and accurately.
 
 Example of Naive Bayes Algorithm
-For example, if a fruit is red, round, and about 3 inches wide, we might call it an apple. Even if these things are related, each one helps us decide it’s probably an apple. That’s why it’s called ‘Naive.
-An NB model is easy to build and particularly useful for very large data sets. Along with simplicity, Naive Bayes is known to outperform even highly sophisticated classification methods.
+For example, if a fruit is red, round, and about 3 inches wide, we might call it an apple. Even if these things are related, 
+each one helps us decide it’s probably an apple. That’s why it’s called ‘Naive.
+An NB model is easy to build and particularly useful for very large data sets. Along with simplicity, 
+Naive Bayes is known to outperform even highly sophisticated classification methods.
 Bayes theorem provides a way of computing posterior probability P(c|x) from P(c), P(x) and P(x|c). 
 """
