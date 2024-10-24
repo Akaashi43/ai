@@ -79,11 +79,17 @@ def main():
 main()
 
 '''
-What is A* Search Algorithm? 
-A* Search algorithm is one of the best and popular technique used in path-finding and graph traversals.
+Recursive Best-First Search (RBFS) is an informed search algorithm used for optimal pathfinding. 
+It recursively explores paths, guided by an evaluation function f = g + h.
+If the path's cost exceeds a defined limit (f-limit), it backtracks to explore alternatives. 
+RBFS only keeps the current path and minimal information in memory, making it memory-efficient. 
+It aims for optimal solutions with linear space complexity but may re-expand nodes, increasing its time complexity compared to A*.
 
-Why A* Search Algorithm? 
-Informally speaking, A* Search algorithms, unlike other traversal techniques, it has “brains”. What it means is that it is really a smart algorithm which separates it from the other conventional algorithms. This fact is cleared in detail in below sections. 
-And it is also worth mentioning that many games and web-based maps use this algorithm to find the shortest path very efficiently (approximation).
+# Steps :-
+1. Recursive exploration: Explore paths based on the f = g + h cost function.
+2. Track cost: Keep the lowest f value (f-limit) for each node.
+3. Backtrack if needed: If the current path exceeds f-limit, backtrack to try another.
+4. Update limit: Adjust the f-limit to the next best alternative path.
+5. Goal check: If the goal is found, return the solution.
 '''
 
