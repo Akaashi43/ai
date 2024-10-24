@@ -1,13 +1,5 @@
 #AIM: Implement Decision-Tree learning algorithm.
-#REQUIREMENTS:
-"""
-      1)---file1(balance-scale.data) & file2(balance-scale.names)
-      2)---install these modules:
-                  python -m pip install pandas==0.18
-                  python -m pip install scipy
-                  python -m pip install scikit-learn
-                  python -m pip install numpy
-"""
+
 
 import numpy as np
 import pandas as pd
@@ -85,3 +77,13 @@ The process of creating a decision tree involves:
 3.	Repeating the Process: The process is repeated recursively for each subset, creating a new internal node or leaf node until a stopping criterion is met (e.g., all instances in a node belong to the same class or a predefined depth is reached).
 
 '''
+
+#REQUIREMENTS:
+"""
+      1)---file1(balance-scale.data) & file2(balance-scale.names)
+      2)---install these modules:
+                  python -m pip install pandas==0.18
+                  python -m pip install scipy
+                  python -m pip install scikit-learn
+                  python -m pip install numpy
+"""
