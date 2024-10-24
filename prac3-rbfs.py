@@ -77,47 +77,13 @@ def main():
     expand(cityq)
     print(result)
 main()
-              
-              
-"""
-OUTPUT:
-Expanded city------------------------------ Arad
-Second best f(n)------------------------------ 999
-(393, 'Arad,Sibiu', 'Sibiu')
-(999, 'NA', 'NA')
-(447, 'Arad,Timisoara', 'Timisoara')
-Expanded city------------------------------ Sibiu
-Second best f(n)------------------------------ 447
-(413, 'Arad,Sibiu,Rimnicu', 'Rimnicu')
-(415, 'Arad,Sibiu,Fagaras', 'Fagaras')
-(447, 'Arad,Timisoara', 'Timisoara')
-(999, 'NA', 'NA')
-Expanded city------------------------------ Rimnicu
-Second best f(n)------------------------------ 415
-(415, 'Arad,Sibiu,Fagaras', 'Fagaras')
-(417, 'Arad,Sibiu,Rimnicu', 'Rimnicu')
-(447, 'Arad,Timisoara', 'Timisoara')
-(999, 'NA', 'NA')
-Expanded city------------------------------ Fagaras
-Second best f(n)------------------------------ 417
-(417, 'Arad,Sibiu,Rimnicu', 'Rimnicu')
-(450, 'Arad,Sibiu,Fagaras', 'Fagaras')
-(447, 'Arad,Timisoara', 'Timisoara')
-(999, 'NA', 'NA')
-Expanded city------------------------------ Rimnicu
-Second best f(n)------------------------------ 447
-(417, 'Arad,Sibiu,Rimnicu,Pitesti', 'Pitesti')
-(447, 'Arad,Timisoara', 'Timisoara')
-(999, 'NA', 'NA')
-(450, 'Arad,Sibiu,Fagaras', 'Fagaras')
-(526, 'Arad,Sibiu,Rimnicu', 'Rimnicu')
-Expanded city------------------------------ Pitesti
-Second best f(n)------------------------------ 447
-(418, 'Arad,Sibiu,Rimnicu,Pitesti,Bucharest', 'Bucharest')
-(447, 'Arad,Timisoara', 'Timisoara')
-(607, 'Arad,Sibiu,Rimnicu,Pitesti', 'Pitesti')
-(526, 'Arad,Sibiu,Rimnicu', 'Rimnicu')
-(450, 'Arad,Sibiu,Fagaras', 'Fagaras')
-(999, 'NA', 'NA')
-Arad,Sibiu,Rimnicu,Pitesti,Bucharest::418
-"""
+
+'''
+What is A* Search Algorithm? 
+A* Search algorithm is one of the best and popular technique used in path-finding and graph traversals.
+
+Why A* Search Algorithm? 
+Informally speaking, A* Search algorithms, unlike other traversal techniques, it has “brains”. What it means is that it is really a smart algorithm which separates it from the other conventional algorithms. This fact is cleared in detail in below sections. 
+And it is also worth mentioning that many games and web-based maps use this algorithm to find the shortest path very efficiently (approximation).
+'''
+
